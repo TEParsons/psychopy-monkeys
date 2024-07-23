@@ -20,11 +20,11 @@ class KeyboardMonkeyComponent(BaseMonkeyComponent):
         # basic
         name="keyMonkey",
         startType='time (s)', 
-        startVal='',
+        startVal=0.1,
         startEstim='',
         stopType="duration (s)", 
         stopVal=0,
-        durationEstim=0,
+        durationEstim=0.1,
         syncScreenRefresh=False,
         # action
         comp="",
