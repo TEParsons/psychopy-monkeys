@@ -31,6 +31,7 @@ tests = [
 
 [project.entry-points."psychopy.experiment.components"]
 KeyboardMonkeyComponent = "psychopy_monkeys.components.keyboardMonkey:KeyboardMonkeyComponent"
+MouseMonkeyComponent = "psychopy_monkeys.components.mouseMonkey:MouseMonkeyComponent"
 
 [tool.setuptools.package-data]
 "*" = ["*.png"] 
