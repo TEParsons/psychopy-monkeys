@@ -24,7 +24,7 @@ class SliderMonkeyComponent(BaseMonkeyComponent):
         startEstim='',
         stopType="duration (s)", 
         stopVal=0,
-        durationEstim=0.1,
+        durationEstim='',
         syncScreenRefresh=False,
         # action
         comp="",

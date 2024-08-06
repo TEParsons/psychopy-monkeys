@@ -24,7 +24,7 @@ class KeyboardMonkeyComponent(BaseMonkeyComponent):
         startEstim='',
         stopType="duration (s)", 
         stopVal=0,
-        durationEstim=0.1,
+        durationEstim='',
         syncScreenRefresh=False,
         # action
         comp="",
@@ -77,7 +77,8 @@ class KeyboardMonkeyComponent(BaseMonkeyComponent):
             hint=_translate(
                 "Should this monkey press the key at the start time, release at at the stop time, "
                 "or do both?"
-            )
+            ),
+            direct=False
         )
     
     def writeFrameCode(self, buff):

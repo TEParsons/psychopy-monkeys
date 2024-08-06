@@ -24,7 +24,7 @@ class MouseMonkeyComponent(BaseMonkeyComponent):
         startEstim='',
         stopType="duration (s)", 
         stopVal=0,
-        durationEstim=0.1,
+        durationEstim='',
         syncScreenRefresh=False,
         # action
         comp="",
@@ -103,7 +103,8 @@ class MouseMonkeyComponent(BaseMonkeyComponent):
             hint=_translate(
                 "Should this monkey click the mouse button at the start time, release at at the "
                 "stop time, or do both?"
-            )
+            ),
+            direct=False
         )
     
     def writeStartCode(self, buff):
