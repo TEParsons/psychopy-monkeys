@@ -12,8 +12,6 @@ class SliderMonkeyComponent(BaseMonkeyComponent):
     iconFile = Path(__file__).parent / "sliderMonkey.png"
     # text to display when this Component is hovered over
     tooltip = "Monkey which makes a Slider response"
-    # libraries this Component is implemented in
-    targets = ["PsychoPy", "PsychoJS"]
 
     def __init__(
         self, 
