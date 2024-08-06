@@ -89,7 +89,7 @@ class KeyboardMonkeyComponent(BaseMonkeyComponent):
                 code = (
                     "if PILOTING:\n"
                     "    # if piloting, %(name)s will press its key\n"
-                    "    %(name)s.response = %(comp)s.device.makeResponse(\n"
+                    "    %(name)s.response = %(name)s.comp.device.makeResponse(\n"
                     "        code=%(pressKey)s,\n"
                     "        tDown=t,\n"
                     "    )\n"
@@ -111,7 +111,7 @@ class KeyboardMonkeyComponent(BaseMonkeyComponent):
                     code += (
                     "    # get ongoing keypress so %(name)s can release it\n"
                     "    %(name)s.response = None\n"
-                    "    for kp in %(comp)s.device.responses:\n"
+                    "    for kp in %(name)s.comp.device.responses:\n"
                     "        if kp.name == %(pressKey)s and kp.code.duration is None:\n"
                     "            %(name)s.response = kp\n"
                     "    if %(name)s.response is None:\n"

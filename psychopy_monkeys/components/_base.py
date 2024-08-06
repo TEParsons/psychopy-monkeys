@@ -56,12 +56,12 @@ class BaseMonkeyComponent(BaseComponent):
         # import the monkey class
         self.exp.requireImport("Monkey", importFrom='psychopy_monkeys')
 
-        # --- Action params ---
+        # --- Basic params ---
         self.order += [
             "comp",
         ]
         self.params['comp'] = Param(
-            comp, valType="code", inputType="single", categ="Action",
+            comp, valType="code", inputType="single", categ="Basic",
             label=_translate("Component"),
             hint=_translate(
                 "Component for this monkey to act on."

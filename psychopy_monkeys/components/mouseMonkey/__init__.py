@@ -123,7 +123,7 @@ class MouseMonkeyComponent(BaseMonkeyComponent):
                 code = (
                     "if PILOTING:\n"
                     "    # if piloting, %(name)s will click\n"
-                    "    %(comp)s.setMouseButtonState(\n"
+                    "    %(name)s.response = %(name)s.comp.setMouseButtonState(\n"
                     "        button=%(clickButton)s,\n"
                     "        pressed=True,\n"
                     "        pos=layout.Position(%(clickPos)s, units=%(clickUnits)s, win=win).pix,\n"
@@ -141,7 +141,7 @@ class MouseMonkeyComponent(BaseMonkeyComponent):
                 code = (
                     "if PILOTING:\n"
                     "    # if piloting, %(name)s will release its click\n"
-                    "    %(comp)s.setMouseButtonState(\n"
+                    "    %(name)s.response = %(name)s.comp.setMouseButtonState(\n"
                     "        button=%(clickButton)s,\n"
                     "        pressed=False,\n"
                     "        pos=layout.Position(%(clickPos)s, units=%(clickUnits)s, win=win).pix,\n"
