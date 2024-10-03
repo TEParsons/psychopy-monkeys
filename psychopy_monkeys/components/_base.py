@@ -12,7 +12,7 @@ class BaseMonkeyComponent(BaseComponent):
     # only implemented in Python, for now...
     targets = ["PsychoPy"]
     # all monkeys go in the same category
-    categories = ['Monkeys']
+    categories = ['Monkeys (Simulated Responses)']
     # what is the earliest version of PsychoPy this Component works with?
     version = "2024.2.0"
 
