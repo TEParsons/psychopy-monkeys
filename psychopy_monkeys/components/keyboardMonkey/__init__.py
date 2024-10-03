@@ -23,7 +23,7 @@ class KeyboardMonkeyComponent(BaseMonkeyComponent):
         startVal=0.1,
         startEstim='',
         stopType="duration (s)", 
-        stopVal=0,
+        stopVal=0.1,
         durationEstim='',
         syncScreenRefresh=False,
         # action
