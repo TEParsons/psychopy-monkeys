@@ -92,6 +92,7 @@ class KeyboardMonkeyComponent(BaseMonkeyComponent):
                     "    # if piloting, %(name)s will press its key\n"
                     "    %(name)s.response = %(name)s.comp.device.makeResponse(\n"
                     "        code=%(pressKey)s,\n"
+                    "        name=%(pressKey)s,\n"
                     "        tDown=t,\n"
                     "    )\n"
                 )
