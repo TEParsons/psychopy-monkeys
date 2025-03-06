@@ -1,23 +1,25 @@
 -------------------------------
-ExampleComponent
+SliderMonkeyComponent
 -------------------------------
 
-Example Component to show you how to make and document one.
+Monkey which makes a Slider response
 
 
-    **Categories:** Custom
-    **Works in:** PsychoPy, PsychoJS
+Categories:
+    Monkeys (Simulated Responses)
+Works in:
+    PsychoPy
 
 Parameters
 -------------------------------
 
 Basic
-=================
+===============================
 
 Name
-    Name of this component (alphanumeric or _, no spaces)
+    Name of this Component (alphanumeric or _, no spaces)
 
-start type
+Start type
     How do you want to define your start point?
     
     Options:
@@ -25,9 +27,9 @@ start type
     - frame N
     - condition
 
-stop type
+Stop type
     How do you want to define your end point?
-
+    
     Options:
     - duration (s)
     - duration (frames)
@@ -36,10 +38,10 @@ stop type
     - condition
 
 Start
-    When does the component start?
+    When does the Component start?
 
 Stop
-    When does the component end? (blank is endless)
+    When does the Component end? (blank is endless)
 
 Expected start (s)
     (Optional) expected start (s), purely for representing in the timeline
@@ -47,8 +49,11 @@ Expected start (s)
 Expected duration (s)
     (Optional) expected duration (s), purely for representing in the timeline
 
+Component
+    Component for this monkey to act on.
+
 Data
-=================
+===============================
 
 Save onset/offset times
     Store the onset/offset times in the data file (as well as in the log file).
@@ -57,8 +62,14 @@ Sync timing with screen refresh
     Synchronize times with screen refresh (good for visual stimuli and responses based on them)
 
 Testing
-=================
+===============================
 
-Disable component
-    Disable this component
+Disable Component
+    Disable this Component
+
+Action
+===============================
+
+Slider response
+    What value to choose on the Slider?
 
