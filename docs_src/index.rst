@@ -13,25 +13,25 @@ The following monkeys are added:
 .. grid:: 1 2 3 4
 
    .. grid-item-card:: Routine Ender Monkey
-      :link: builder/components/RoutineEnderMonkeyComponent
+      :link: components/RoutineEnderMonkeyComponent
       :img-top: static/enderMonkey.svg
 
       Ends the Routine at a specific time
 
    .. grid-item-card:: Keyboard Monkey
-      :link: builder/components/KeyboardMonkeyComponent
+      :link: components/KeyboardMonkeyComponent
       :img-top: static/keyboardMonkey.svg
 
       Presses a key at a specific time
    
    .. grid-item-card:: Mouse Monkey
-      :link: builder/components/MouseMonkeyComponent
+      :link: components/MouseMonkeyComponent
       :img-top: static/mouseMonkey.svg
 
       Clicks at a specific time and position
    
    .. grid-item-card:: Slider Monkey
-      :link: builder/components/SliderMonkeyComponent
+      :link: components/SliderMonkeyComponent
       :img-top: static/sliderMonkey.svg
 
       Makes a Slider response at a specific time with a specific value
