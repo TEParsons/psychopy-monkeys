@@ -23,19 +23,21 @@ Start type
     How do you want to define your start point?
     
     Options:
-    - time (s)
-    - frame N
-    - condition
+
+    * time (s)
+    * frame N
+    * condition
 
 Stop type
     How do you want to define your end point?
     
     Options:
-    - duration (s)
-    - duration (frames)
-    - time (s)
-    - frame N
-    - condition
+    
+    * duration (s)
+    * duration (frames)
+    * time (s)
+    * frame N
+    * condition
 
 Start
     When does the Component start?
@@ -74,9 +76,9 @@ Mouse button
     What mouse button to click?
     
     Options:
-    - Left click
-    - Middle (scroll) click
-    - Right click
+    * Left click
+    * Middle (scroll) click
+    * Right click
 
 Click position [x,y]
     Where on screen to click?
@@ -85,20 +87,20 @@ Spatial units
     Units in which click position are specified
     
     Options:
-    - from exp settings
-    - deg
-    - cm
-    - pix
-    - norm
-    - height
-    - degFlatPos
-    - degFlat
+    * from exp settings
+    * deg
+    * cm
+    * pix
+    * norm
+    * height
+    * degFlatPos
+    * degFlat
 
 Click mode
     Should this monkey click the mouse button at the start time, release at at the stop time, or do both?
     
     Options:
-    - Click and release
-    - Click only
-    - Release only
+    * Click and release
+    * Click only
+    * Release only
 

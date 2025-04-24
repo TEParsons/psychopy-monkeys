@@ -23,19 +23,21 @@ Start type
     How do you want to define your start point?
     
     Options:
-    - time (s)
-    - frame N
-    - condition
+    
+    * time (s)
+    * frame N
+    * condition
 
 Stop type
     How do you want to define your end point?
     
     Options:
-    - duration (s)
-    - duration (frames)
-    - time (s)
-    - frame N
-    - condition
+
+    * duration (s)
+    * duration (frames)
+    * time (s)
+    * frame N
+    * condition
 
 Start
     When does the Component start?
