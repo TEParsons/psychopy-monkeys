@@ -37,5 +37,4 @@ html_static_path = ["static"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme_path = ["themes"]
-html_theme = 'psychopy_plugin'
+html_theme = 'psychopy'

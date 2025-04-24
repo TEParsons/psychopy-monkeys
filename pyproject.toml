@@ -22,6 +22,7 @@ docs = [
   "psychopy",
   "sphinx",
   "sphinx-design",
+  "psychopy-sphinx-theme"
 ]
 # dependencies for running the test suite
 tests = [
