@@ -21,7 +21,7 @@ changelog = "https://github.com/psychopy/psychopy-monkeys/blob/main/CHANGELOG.md
 docs = [
   "psychopy",
   "sphinx",
-  "furo",
+  "sphinx-design",
 ]
 # dependencies for running the test suite
 tests = [

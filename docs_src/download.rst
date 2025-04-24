@@ -1,3 +1,4 @@
+:orphan:
 
 =======================================================
 How to install psychopy-monkeys

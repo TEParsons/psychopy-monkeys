@@ -8,30 +8,30 @@ effort when building and debugging your experiment, as you can let the monkeys d
 pressing and mouse clicking for you while you're in pilot mode, then switch to running mode when 
 you're testing on an actual participant.
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Added content for the PsychoPy app
-   :glob:
+The following monkeys are added:
 
-   app/*
+.. grid:: 1 2 3 4
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Added content for Builder
-   :glob:
+   .. grid-item-card:: Routine Ender Monkey
+      :link: builder/components/RoutineEnderMonkeyComponent
+      :img-top: static/enderMonkey.svg
 
-   builder/**/*
+      Ends the Routine at a specific time
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Added content for Coder
-   :glob:
+   .. grid-item-card:: Keyboard Monkey
+      :link: builder/components/KeyboardMonkeyComponent
+      :img-top: static/keyboardMonkey.svg
 
-   coder/*
+      Presses a key at a specific time
+   
+   .. grid-item-card:: Mouse Monkey
+      :link: builder/components/MouseMonkeyComponent
+      :img-top: static/mouseMonkey.svg
 
-Indices and tables
-==================
+      Clicks at a specific time and position
+   
+   .. grid-item-card:: Slider Monkey
+      :link: builder/components/SliderMonkeyComponent
+      :img-top: static/sliderMonkey.svg
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+      Makes a Slider response at a specific time with a specific value
