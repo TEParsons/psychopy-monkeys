@@ -38,3 +38,10 @@ html_static_path = ["static"]
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'psychopy'
+html_theme_options = {
+    'social_links': [
+        {'name': "github", 'icon': "github", 'url': "https://github.com/teparsons/psychopy-monkeys"},
+        {'name': "bluesky", 'icon': "bluesky", 'url': "https://web-cdn.bsky.app/profile/teparsons.bsky.social"},
+        {'name': "linkedin", 'icon': "linkedin", 'url': "https://uk.linkedin.com/in/todd-parsons-056a459a"}, 
+    ]
+}
