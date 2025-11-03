@@ -10,6 +10,7 @@ class RoutineEnderMonkeyComponent(BaseMonkeyComponent):
     """
     # path to this Component's icon file
     iconFile = Path(__file__).parent / "enderMonkey.png"
+    iconSVG = Path(__file__).parent / "EnderMonkeyComponent.svg"
     # text to display when this Component is hovered over
     tooltip = "Monkey which ends the Routine"
 

@@ -10,6 +10,7 @@ class SliderMonkeyComponent(BaseMonkeyComponent):
     """
     # path to this Component's icon file
     iconFile = Path(__file__).parent / "sliderMonkey.png"
+    iconSVG = Path(__file__).parent / "SliderMonkeyComponent.svg"
     # text to display when this Component is hovered over
     tooltip = "Monkey which makes a Slider response"
 

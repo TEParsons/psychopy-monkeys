@@ -10,6 +10,7 @@ class MouseMonkeyComponent(BaseMonkeyComponent):
     """
     # path to this Component's icon file
     iconFile = Path(__file__).parent / "mouseMonkey.png"
+    iconSVG = Path(__file__).parent / "MouseMonkeyComponent.svg"
     # Text to display when this Component is hovered over
     tooltip = "Monkey which clicks at a specific time and position"
 

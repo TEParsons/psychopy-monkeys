@@ -10,6 +10,7 @@ class KeyboardMonkeyComponent(BaseMonkeyComponent):
     """
     # path to this Component's icon file
     iconFile = Path(__file__).parent / "keyboardMonkey.png"
+    iconSVG = Path(__file__).parent / "KeyboardMonkeyComponent.svg"
     # Text to display when this Component is hovered over
     tooltip = "Monkey which presses a key at a specific time"
 
