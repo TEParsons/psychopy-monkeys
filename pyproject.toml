@@ -13,8 +13,8 @@ license = { text = "MIT" }
 dependencies = []
 
 [project.urls]
-homepage = "https://github.com/psychopy/psychopy-monkeys"
-changelog = "https://github.com/psychopy/psychopy-monkeys/blob/main/CHANGELOG.md"
+homepage = "https://github.com/TEParsons/psychopy-monkeys"
+changelog = "https://github.com/TEParsons/psychopy-monkeys/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 # dependencies for building the docs
