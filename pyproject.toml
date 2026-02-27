@@ -1,6 +1,6 @@
 [project]
 name = "psychopy-monkeys"
-version = "0.0.3" 
+version = "0.0.4" 
 # a brief description of what your plugin does
 description = "Adds Components to PsychoPy which immitate participant input while in piloting mode."
 # link to the README.md file for a longer description of the project
@@ -37,7 +37,7 @@ SliderMonkeyComponent = "psychopy_monkeys.components.sliderMonkey:SliderMonkeyCo
 RoutineEnderMonkeyComponent = "psychopy_monkeys.components.enderMonkey:RoutineEnderMonkeyComponent"
 
 [tool.setuptools.package-data]
-"*" = ["*.png"] 
+"*" = ["*.png", "*.svg"] 
 
 [tool.setuptools.packages.find]
 exclude = ["docs*", "docs_src*", "tests*"]
